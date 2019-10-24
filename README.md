@@ -16,3 +16,7 @@ This sample comes with a web-based UI for testing the function. To test it out:
  1. Deploy your project using `firebase deploy`
  1. Open the app using `firebase open hosting:site`, this will open a browser.
  1. Start following a user, this will send a notification to him.
+
+
+###  link your apps 
+https://firebase.google.com/docs/flutter/setup
