@@ -20,3 +20,15 @@ This sample comes with a web-based UI for testing the function. To test it out:
 
 ###  link your apps 
 https://firebase.google.com/docs/flutter/setup
+
+
+# Cloud Firestore功能觸發器
+用於Firebase SDK的Cloud Functions導出一個functions.firestore 對象，該對象使您可以創建綁定到特定Cloud Firestore事件的處理程序。
+
+|事件類型|觸發|
+| -- | -- |
+|onCreate()|首次寫入文檔時觸發。|
+|onUpdate()|當文檔已經存在並且值更改時觸發。|
+|onDelete()|刪除帶有數據的文檔時觸發。|
+|onWrite()|觸發時onCreate，onUpdate或者onDelete被觸發。|
+
